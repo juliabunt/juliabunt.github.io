@@ -67,20 +67,6 @@ body {
     border: 1px solid #2c71b8;
     margin-top: 5px;
 }
-/* .search-field {
-    height: 40px;
-    width: 165px;
-    background-color: transparent;
-    color: #2c71b8;
-    border: 1px solid #2c71b8;
-    border-right: none;
-    padding-left: 20px;
-    font-size: 21px;
-    font-weight: 300;
-    font-family: 'Roboto', sans-serif;
-    outline: none;
-    padding: 5px; */
-}
 input::-webkit-input-placeholder {
     color: #2c71b8;
 }
@@ -190,13 +176,13 @@ p {
     background-image: url(images/arrow.png);
     position: absolute;
     top: -25px;
-    right: 20px;
+    right: 22px;
   }
   .arrow {
     position: relative;
     color: #2c71b8;
   }
-  .arrow:hover {
+  .menu > li:hover > .arrow {
     color: white;
   }
 
